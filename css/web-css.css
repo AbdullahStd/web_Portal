@@ -1,0 +1,112 @@
+body{
+    background-image: url("bggradient.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    user-select: none;
+    scroll-behavior: smooth;
+}
+.dropdown-bg-color{
+    background-color: rgb(15, 59, 72);
+}
+/* navigation allignment */
+nav>a{
+    margin-left: 30%;
+}
+.portfolio-margin{
+    margin-top: -23px;
+    font-size: 25px
+}
+/* PortfOliO's CSS */
+.portfolio{
+    height: 250px;
+    width: 600px;
+    background-color:transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: auto;
+    color: antiquewhite;
+    margin-top: 10%;
+    line-height: 10px;
+    border: 4px double rgb(15, 59, 72);
+    border: 3px solid gold;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.portfolio:hover{
+    background-color:rgb(15, 59, 72) ;
+    border: 1px solid gold;
+}
+.aboutme{
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom:90px;
+}
+.img{
+    margin-left: -12px;
+    max-width: 100%;
+}
+.portfolio-opacity{
+    opacity: 0.8;
+}
+.input-width{
+    padding: 70px;
+}
+.input-width>input{
+    height: 40px;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    caret-color: red;
+}
+
+textarea{
+    margin-left: 30px;
+    caret-color: red;
+}
+.button-note{
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 6px;
+    width: 180px;
+    background-color: #006eba;
+    font-weight: 600;
+}
+.login-modal-box{
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+}
+/* contact us */
+.get-in-touch{
+    text-align: center;
+    
+}
+.get-in-input>input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 183, 183);
+}
+.contact-us-form{
+    width: 950px;
+    margin-left: 28%;
+    margin-bottom: 15px;
+    height: 200px;
+}
+.contact-button{
+    padding: 10px;
+    width: 160px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 62%;
+    border: none;
+    margin-bottom: 10px;
+}

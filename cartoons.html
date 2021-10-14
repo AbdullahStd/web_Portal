@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/web-css.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.js">
+    <!--JS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Cartoons</title>
+</head>
+<body>
+<!--Header-->
+<div class="container header">
+        <div class="row">
+            <div class="col pb-2 text-center">
+                <h1 class="display-4 text-danger">Live Stream Portal</h1>
+            </div>
+        </div>
+    </div>
+    <!--Navigation-menu-Start-->
+    <nav class="navbar navbar-light navbar-expand-md bg-transparent">
+        <a href="portfolio.html" class="navbar-brand text-warning font-weight-bold portfolio-margin">Portfolio</a> 
+
+        <!--Toggle-button-start-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#Own">
+            <span><img src="images/menu-toggle.png" height="40px" alt=""></span>
+        </button>
+        <!--Toggle-button-ends-->
+
+            <div class="collapse navbar-collapse" id="Own">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item"><a href="index.html" class="nav-link text-warning">Home</a></li> &nbsp;&nbsp;
+        <!--Navbar-Dropdown-start-->
+        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="" data-toggle="dropdown" id="navbarDropdown">Movies</a> &nbsp;
+             <div class="dropdown-menu dropdown-bg-color " aria-labelledby="navbarDropdown">
+                <a href="index.html" class="dropdown-item text-warning">Fast & Furious</a>
+                <a href="index.html" class="dropdown-item text-warning">Godzilla & Kong</a>
+                <a href="#Bollywood" class="dropdown-item text-warning">Bollywood</a>
+            </div>
+        </li>
+<!--Navbar-Dropdown-close-->
+                <li class="nav-item"><a href="cartoons.html" class="nav-link bg-warning active">Anime / Kids</a></li> &nbsp;
+                <li class="nav-item"><a href="about.html" class="nav-link text-warning">About</a></li>&nbsp;
+                <li class="nav-item"><a href="contact-us.html" class="nav-link text-warning">Contact us</a></li>&nbsp;
+            </ul>
+            <!--Modal box>-->
+            <button type="button" class="btn btn-outline-warning login-modal-box" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Login
+          </button>            
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                  <input type="text" placeholder="Name" class="form-control mb-4">
+                  <input type="password" placeholder="Password" class="form-control">
+                  <a href="index.html" class="btn btn-outline-success mt-2">Login</a>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary p-1" data-bs-dismiss="modal"><span class="btn btn-close"></span></button>
+              <a href="#" class="btn btn-primary">Sign UP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--Modal-Box-Ends-->          
+            <!--Navigation-menu-items-End-->
+
+
+        </div>
+        <!--Collapse Div-->
+    </nav>
+    <!--Navigation-menu-Close-->
+
+<!--Slider-->
+<div class="container">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="slider/slider2.jpg" class="d-block w-100" alt="...">
+              </div>
+            <div class="carousel-item ">
+              <img src="slider/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slider/slider3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+</div>
+<!--Slider Ends-->
+
+    <!--Content Data-->
+    <div class="container">
+        <div class="row mt-5"  id="furious">
+
+<!--Movie 1-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2 hover">Boss Baby 1</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/k397HRbTtWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Boss Baby-1
+                <br> Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+
+<!--Movie 2-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Boss Baby 2</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/EWizz52lZvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Boss Baby 2   
+                <br> Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+
+<!--Movie 3-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Nut Job</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/fq4qP2oSpIA?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Nut Job 1   
+                <br> Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+                
+<!--Movie 4--> 
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Nut Job 2</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/2alTj9PCzkA?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Nut Job 2    
+                <br> Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+
+ <!--Second-Row-->               
+        </div>
+        <div class="row mt-5" id="kong">
+                <!--Movie 1-->
+                            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">HOTEL TRANSYLVANIA</h1>
+                                <iframe width="305" height="315" src="https://www.youtube.com/embed/7AP86CYeR30?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="bg-info">
+                                THE: TRANSFORMANIA
+                                <br> Release date:
+                                31 May 2013
+                                Updated On:
+                                30 May, 2013
+                                MPAA Rating
+                                PG-13 <br>
+                                Quality:
+                                BRRip <br>
+                                Genre:
+                                Action, Crime, Thriller
+                                </p></div>
+                
+                <!--Movie 2-->
+                            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Secret Life Of Pets 2</h1>
+                                <iframe width="305" height="315" src="https://www.youtube.com/embed/8_NBO6KEk88?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="bg-info">                               
+                                The Secret Life Of Pets 2
+                                <br> Release date:
+                                31 May 2013
+                                Updated On:
+                                30 May, 2013
+                                MPAA Rating
+                                PG-13 <br>
+                                Quality:
+                                BRRip <br>
+                                Genre:
+                                Action, Crime, Thriller
+                                </p></div>
+                
+                <!--Movie 3-->
+                            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Despicable Me 3</h1>
+                                <iframe width="305" height="315" src="https://www.youtube.com/embed/6DBi41reeF0?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="bg-info">
+                                Despicable Me 3
+                                <br> Release date:
+                                31 May 2013
+                                Updated On:
+                                30 May, 2013
+                                MPAA Rating
+                                PG-13 <br>
+                                Quality:
+                                BRRip <br>
+                                Genre:
+                                Action, Crime, Thriller
+                                </p></div>
+                                
+                <!--Movie 4-->
+                            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Minions</h1>
+                                <iframe width="305" height="315" src="https://www.youtube.com/embed/PjfP2tmjtQM?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="bg-info">
+                                Minions
+                                <br> Release date:
+                                31 May 2013
+                                Updated On:
+                                30 May, 2013
+                                MPAA Rating
+                                PG-13 <br>
+                                Quality:
+                                BRRip <br>
+                                Genre:
+                                Action, Crime, Thriller
+                                </p></div>
+                        </div>
+ <!--Third-Row-->                       
+        <div class="row mt-5"  id="Bollywood">
+
+<!--Movie 1-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Angry Birds</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/QRmKa7vvct4?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+
+<!--Movie 2-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Angry Birds 2</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/RSKQ-lVsMdg?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+
+<!--Movie 3-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Trolld: World Tour</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/P9A6hOg9QQ0?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>
+                
+<!--Movie 4-->
+            <div class="col-md-3 lead"><h1 class="text-center bg-warning lead p-2">Ice Age: Collision Course</h1>
+                <iframe width="305" height="315" src="https://www.youtube.com/embed/Ohq6NmKMja8?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="bg-info">
+                Release date:
+                31 May 2013
+                Updated On:
+                30 May, 2013
+                MPAA Rating
+                PG-13 <br>
+                Quality:
+                BRRip <br>
+                Genre:
+                Action, Crime, Thriller
+                </p></div>                        
+    </div>
+    <!--Pagination-->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item ">
+            <a class="page-link" href="index.html" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link " href="index.html">1</a></li>
+          <li class="page-item"><a class="page-link text-danger" href="cartoons.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="about.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="about.html">Next</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Pagination Ends-->
+        <!--Footer-->
+        <div class="footer bg-dark text-light text-center mt-5 p-4">@Copyright | All Rights Reserved <cite>2019-2021</cite></div>
+    
+    <!--Footer-Ends-Here-->    
+</body>
+</html>
